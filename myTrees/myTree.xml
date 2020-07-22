@@ -23,11 +23,11 @@
              <STC>85</STC>
              <q>עד כמה לדעתכם למידה באמצעות שמע יכולה להיות אפקטיבית </q>
              <min>
-               <text>לא מסכימה כלל</text>
+               <text>לא מסכימ/ה כלל</text>
                <num>1</num>
              </min>
              <max>
-               <text>מסכימה מאוד</text>
+               <text>מסכימ/ה מאוד</text>
                <num>10</num>
              </max>
            </interaction>

@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Rubik|Secular+One|Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik|Secular+One|Varela+Round&display=swap');
 
 /*
 
@@ -616,7 +616,7 @@ a{
 }
 
 input[type=radio] {
-    background-image: url(/appSrc/icons/RBUnChecked.png);
+    background-image: url(../appSrc/icons/RBUnChecked.png);
     background-size: cover;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -625,7 +625,7 @@ input[type=radio] {
 }
 
     input[type=radio]:checked {
-    background-image: url(/appSrc/icons/RBChecked.png);
+    background-image: url(../appSrc/icons/RBChecked.png);
     background-size: cover;
     }
 
@@ -661,7 +661,7 @@ input[type=radio] {
 }
 
 .checkbox {
-background-image: url(/appSrc/icons/CBUnChecked.png);
+background-image: url(../appSrc/icons/CBUnChecked.png);
     background-size: cover;
     vertical-align: top;
     height: 2.2vh;
@@ -671,7 +671,7 @@ background-image: url(/appSrc/icons/CBUnChecked.png);
 }
 
 input[type=checkbox] {
-background-image: url(/appSrc/icons/CBUnChecked.png);
+background-image: url(../appSrc/icons/CBUnChecked.png);
     background-size: cover;
     border:none;
     -webkit-appearance: none;

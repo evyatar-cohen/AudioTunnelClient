@@ -597,7 +597,7 @@ a{
     padding-right: 8%;
     position: relative;
     width: 100%;
-    bottom: 3vh;
+    bottom: 2.7vh;
     margin-bottom: -0.5rem;
 }
 
@@ -671,9 +671,9 @@ background-image: url(../appSrc/icons/CBUnChecked.png);
 }
 
 input[type=checkbox] {
-background-image: url(../appSrc/icons/CBUnChecked.png);
+    background-image: url(../appSrc/icons/CBUnChecked.png);
     background-size: cover;
-    border:none;
+    border: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     height: 16px;
@@ -681,7 +681,7 @@ background-image: url(../appSrc/icons/CBUnChecked.png);
 }
 
     input[type=checkbox]:checked {
-        background-image: url(/appSrc/icons/CBChecked.png);
+        background-image: url(../appSrc/icons/CBChecked.png);
     }
 
 
@@ -692,7 +692,7 @@ background-image: url(../appSrc/icons/CBUnChecked.png);
     padding-right: 8%;
     position: relative;
     width: 100%;
-    bottom: 3vh;
+    bottom: 2.7vh;
     margin-bottom: -0.5rem;
 }
 

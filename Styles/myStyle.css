@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik|Secular+One|Varela+Round&display=swap');
+﻿@import url('https://fonts.googleapis.com/css?family=Rubik|Secular+One|Varela+Round&display=swap');
 
 /*
 
@@ -197,7 +197,6 @@ a{
     background-image: url(../appSrc/icons/UserEnvIcon.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #d1191900;
     border: none;
 }
 
@@ -374,7 +373,6 @@ a{
     background-image: url(../appSrc/icons/PlayBTN.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #d1191900;
     border: none;
 }
 
@@ -392,7 +390,7 @@ a{
     background-image: url(../appSrc/icons/BackBTN.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #d1191900;
+    /*background-color: #d1191900;*/
     border: none;
 }
 

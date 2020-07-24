@@ -1,17 +1,5 @@
 ﻿
 
-
-function myFunction() {
-    document.getElementById("container").style.display = "none";
-    myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("container").style.display = "block";
-}
-
-
 var app = angular.module("myApp", ["ngRoute"]);
 app.config(function ($routeProvider, $locationProvider) {
     $locationProvider.hashPrefix('');
@@ -159,7 +147,7 @@ function lessonData(xml) {
         var titleNodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
         var titleResult = titleNodes.iterateNext();
         while (titleResult) {
-            lessonTitle +=titleResult.childNodes[0].nodeValue;
+            lessonTitle =titleResult.childNodes[0].nodeValue;
             titleResult = titleNodes.iterateNext();
             console.log(lessonTitle);
             
@@ -177,7 +165,7 @@ function lessonData(xml) {
         var authorNodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
         var authorResult = authorNodes.iterateNext();
         while (authorResult) {
-            authorName += authorResult.childNodes[0].nodeValue;
+            authorName = authorResult.childNodes[0].nodeValue;
             authorResult = authorNodes.iterateNext();
         }
     }
@@ -206,9 +194,9 @@ function lessonData(xml) {
         var audioNodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
         var audioResult = audioNodes.iterateNext();
         while (audioResult) {
-            audioSrc += "Podcasts/" + audioResult.childNodes[0].nodeValue;
+            audioSrc = "Podcasts/" + audioResult.childNodes[0].nodeValue;
 
-            audioDuration += audioResult.getAttribute('duration');
+            audioDuration = audioResult.getAttribute('duration');
             audioResult = audioNodes.iterateNext();
         }
         document.getElementById("audioPod").src = audioSrc;
